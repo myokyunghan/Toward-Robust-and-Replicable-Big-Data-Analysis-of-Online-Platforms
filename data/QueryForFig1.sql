@@ -269,7 +269,7 @@ from
 	from
 		postswithdeleted
 	where
-        -- To avoid the time out from the stack exchange data explorer, we devide the time frame as below
+        -- To avoid the time out from the stack exchange data explorer, we divide the time frame as below
 		-- treat_0_1_condition3.csv
 		cast(creationdate as date) between '2021-10-06' and '2021-12-31'
 		-- treat 0_2_condition3.csv
